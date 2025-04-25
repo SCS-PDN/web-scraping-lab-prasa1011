@@ -1,0 +1,10 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>ScrapeServlet</servlet-name>
+        <servlet-class>com.servlet.ScrapeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScrapeServlet</servlet-name>
+        <url-pattern>/ScrapeServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
